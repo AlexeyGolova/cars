@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cars</title>
+    <meta name="title" content="Тачки">
+    <meta name="description" content="Машины">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Тачки">
+    <meta property="og:description" content="Машины">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Тачки">
+    <meta property="twitter:description" content="Машины">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">
+                <svg width="20px" height="20px" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                    <title>close [#1511]</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs>
+                
+                </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Dribbble-Light-Preview" transform="translate(-419.000000, -240.000000)" fill="#DB3138">
+                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                <polygon id="close-[#1511]" points="375.0183 90 384 98.554 382.48065 100 373.5 91.446 364.5183 100 363 98.554 371.98065 90 363 81.446 364.5183 80 373.5 88.554 382.48065 80 384 81.446">
+                
+                </polygon>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="navigation">
+                <ul class="menu__list">
+                    <li class="menu__link">
+                        <a href="#main">Главная</a>
+                    </li>
+                    <li class="menu__link">
+                        <a href="#services">Наши услуги</a>
+                    </li>
+                    <li class="menu__link">
+                        <a id="pasting" href="#services">Оклейка автомобилей</a>
+                    </li>
+                    <li class="menu__link">
+                        <a id="det" href="#services">Детейлинг автомобилей</a>
+                    </li>
+                    <li class="menu__link">
+                        <a href="#masters">Наши работы</a>
+                    </li>
+                    <li class="menu__link">
+                        <a href="#footer">Форма связи с нами</a>
+                    </li>
+                </ul>
+                <div class="menu__socials">
+                    <a href="https://www.instagram.com/4_sleepwalking_4/" class="menu__social">
+                        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.06167 7.24464C3.10844 6.22264 3.26846 5.56351 3.48487 5.00402L3.48778 4.99629C3.70223 4.42695 4.03818 3.91119 4.47224 3.48489L4.47833 3.47891L4.48431 3.47282C4.91096 3.0382 5.42691 2.70258 5.99575 2.4887L6.00556 2.48495C6.56378 2.26786 7.22162 2.10843 8.24447 2.06167M3.06167 7.24464C3.0125 8.33659 2.99997 8.67508 2.99997 11.5063C2.99997 14.3381 3.01181 14.6758 3.06164 15.768M3.06167 7.24464L3.06167 7.52008M3.48867 18.0168C3.70255 18.5856 4.03817 19.1015 4.47279 19.5282L4.47887 19.5342L4.48484 19.5402C4.91116 19.9743 5.42694 20.3103 5.99628 20.5247L6.00478 20.5279C6.56351 20.7446 7.22167 20.9041 8.24447 20.9509M3.48867 18.0168L3.48492 18.0069C3.26783 17.4487 3.1084 16.7909 3.06164 15.768M3.48867 18.0168L3.47585 17.9492M3.06164 15.768L3.07839 15.8562M3.06164 15.768L3.06164 15.4919M3.47585 17.9492L3.07839 15.8562M3.47585 17.9492C3.30704 17.5033 3.13322 16.881 3.07839 15.8562M3.47585 17.9492C3.48177 17.9649 3.48768 17.9803 3.49359 17.9955C3.70766 18.5726 4.04685 19.0952 4.48679 19.5256C4.91708 19.9655 5.43944 20.3046 6.01636 20.5187C6.47934 20.699 7.13172 20.8875 8.24431 20.9385C9.3671 20.9896 9.71399 21 12.5062 21C15.2985 21 15.6457 20.9896 16.7685 20.9385C17.8824 20.8874 18.534 20.6979 18.9954 20.519C19.5726 20.305 20.0953 19.9657 20.5257 19.5256C20.9655 19.0953 21.3046 18.573 21.5187 17.9961C21.699 17.5331 21.8875 16.8808 21.9384 15.7682C21.9895 14.6454 22 14.2978 22 11.5063C22 8.71472 21.9895 8.36684 21.9384 7.24405C21.8871 6.12427 21.6959 5.47168 21.5161 5.00992C21.2811 4.40322 20.9831 3.94437 20.525 3.48627C20.0678 3.02999 19.6102 2.73179 19.003 2.49654C18.5396 2.31537 17.8866 2.12531 16.7685 2.07406C16.6712 2.06964 16.5798 2.06552 16.4921 2.06168M3.07839 15.8562C3.07684 15.8273 3.07539 15.7981 3.07403 15.7685C3.06961 15.6712 3.06548 15.5797 3.06164 15.4919M8.24447 2.06167C9.33668 2.01184 9.67505 2 12.5062 2C15.3374 2 15.6756 2.01252 16.7675 2.06168M8.24447 2.06167L8.52062 2.06167M16.7675 2.06168L16.4921 2.06168M16.7675 2.06168C17.7897 2.10844 18.4489 2.26844 19.0085 2.48487L19.0162 2.48781C19.5855 2.70226 20.1013 3.03821 20.5276 3.47227L20.5335 3.4783L20.5396 3.48422C20.9737 3.91055 21.3096 4.42646 21.5239 4.99596L21.5275 5.00559C21.7446 5.56381 21.9041 6.22165 21.9508 7.2445M8.52062 2.06167L16.4921 2.06168M8.52062 2.06167C9.44548 2.02123 9.95666 2.01253 12.5062 2.01253C15.056 2.01253 15.5671 2.02124 16.4921 2.06168M8.52062 2.06167C8.43284 2.06551 8.34134 2.06964 8.24402 2.07406C7.13004 2.12512 6.47843 2.31464 6.01708 2.49358C5.43767 2.70837 4.91328 3.04936 4.48192 3.49186C4.0281 3.94756 3.73105 4.40422 3.49655 5.0094C3.31536 5.4728 3.12527 6.12614 3.07402 7.24434C3.06961 7.34135 3.06549 7.43257 3.06167 7.52008M21.9508 15.768C21.9041 16.7908 21.7446 17.449 21.5279 18.0077L21.5247 18.0162C21.3102 18.5856 20.9743 19.1013 20.5402 19.5276L20.5341 19.5336L20.5282 19.5397C20.1015 19.9743 19.5856 20.3099 19.0167 20.5238L19.0069 20.5276C18.4487 20.7447 17.7908 20.9041 16.768 20.9509M3.06164 15.4919C3.0212 14.567 3.0125 14.0558 3.0125 11.5063C3.0125 8.95591 3.0212 8.44544 3.06167 7.52008M3.06164 15.4919L3.06167 7.52008M10.8155 15.5881C11.3515 15.8101 11.926 15.9244 12.5062 15.9244C13.678 15.9244 14.8018 15.4589 15.6304 14.6304C16.4589 13.8018 16.9244 12.678 16.9244 11.5063C16.9244 10.3345 16.4589 9.21072 15.6304 8.38215C14.8018 7.55359 13.678 7.0881 12.5062 7.0881C11.926 7.0881 11.3515 7.20238 10.8155 7.42442C10.2794 7.64645 9.79239 7.97189 9.38213 8.38215C8.97187 8.79242 8.64643 9.27947 8.42439 9.81551C8.20236 10.3515 8.08808 10.9261 8.08808 11.5063C8.08808 12.0865 8.20236 12.661 8.42439 13.197C8.64643 13.7331 8.97187 14.2201 9.38213 14.6304C9.79239 15.0406 10.2794 15.3661 10.8155 15.5881ZM9.37229 8.37231C10.2035 7.54113 11.3308 7.07418 12.5062 7.07418C13.6817 7.07418 14.809 7.54113 15.6402 8.37231C16.4714 9.20349 16.9383 10.3308 16.9383 11.5063C16.9383 12.6817 16.4714 13.809 15.6402 14.6402C14.809 15.4714 13.6817 15.9383 12.5062 15.9383C11.3308 15.9383 10.2035 15.4714 9.37229 14.6402C8.54111 13.809 8.07416 12.6817 8.07416 11.5063C8.07416 10.3308 8.54111 9.20349 9.37229 8.37231ZM19.434 6.04229C19.434 6.37873 19.3003 6.70139 19.0625 6.93929C18.8246 7.17719 18.5019 7.31084 18.1655 7.31084C17.829 7.31084 17.5064 7.17719 17.2685 6.93929C17.0306 6.70139 16.8969 6.37873 16.8969 6.04229C16.8969 5.70585 17.0306 5.38319 17.2685 5.1453C17.5064 4.9074 17.829 4.77375 18.1655 4.77375C18.5019 4.77375 18.8246 4.9074 19.0625 5.1453C19.3003 5.38319 19.434 5.70585 19.434 6.04229Z" stroke="#DB3138" stroke-linejoin="round"/>
+                            </svg>
+                    </a>
+                    <a href="https://github.com/AlexeyGolova" class="menu__social">
+                        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#DB3138">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                        
+                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="https://vk.com/alexey_golovach" class="menu__social">
+                        <svg fill="#DB3138" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <title>vk</title>
+                            <path d="M25.217 22.402h-2.179c-0.825 0-1.080-0.656-2.562-2.158-1.291-1.25-1.862-1.418-2.179-1.418-0.445 0-0.572 0.127-0.572 0.741v1.968c0 0.53-0.169 0.847-1.566 0.847-2.818-0.189-5.24-1.726-6.646-3.966l-0.021-0.035c-1.632-2.027-2.835-4.47-3.43-7.142l-0.022-0.117c0-0.317 0.127-0.614 0.741-0.614h2.179c0.55 0 0.762 0.254 0.975 0.846 1.078 3.112 2.878 5.842 3.619 5.842 0.275 0 0.402-0.127 0.402-0.825v-3.219c-0.085-1.482-0.868-1.608-0.868-2.137 0.009-0.283 0.241-0.509 0.525-0.509 0.009 0 0.017 0 0.026 0.001l-0.001-0h3.429c0.466 0 0.635 0.254 0.635 0.804v4.34c0 0.465 0.212 0.635 0.339 0.635 0.275 0 0.509-0.17 1.016-0.677 1.054-1.287 1.955-2.759 2.642-4.346l0.046-0.12c0.145-0.363 0.493-0.615 0.9-0.615 0.019 0 0.037 0.001 0.056 0.002l-0.003-0h2.179c0.656 0 0.805 0.337 0.656 0.804-0.874 1.925-1.856 3.579-2.994 5.111l0.052-0.074c-0.232 0.381-0.317 0.55 0 0.975 0.232 0.317 0.995 0.973 1.503 1.566 0.735 0.727 1.351 1.573 1.816 2.507l0.025 0.055c0.212 0.612-0.106 0.93-0.72 0.93zM20.604 1.004h-9.207c-8.403 0-10.392 1.989-10.392 10.392v9.207c0 8.403 1.989 10.392 10.392 10.392h9.207c8.403 0 10.392-1.989 10.392-10.392v-9.207c0-8.403-2.011-10.392-10.392-10.392z"></path>
+                            </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="menu__overlay">
+            
+        </div>
+    </div>
+    <section id="main" class="promo">
+        <div id="dot">
+
+        </div>
+        
+        <div class="container">
+            <div class="hamburger">
+                <span>
+    
+                </span>
+                <span class="long">
+    
+                </span>
+                <span>
+    
+                </span>
+            </div>
+            <header>
+                <nav>
+                    <a href="#main" class="promo__item">
+                        Главная
+                    </a>
+                    <a id="promo_pasting" href="#services" class="promo__item">
+                        Оклейка автомобилей
+                    </a>
+                    <a id="promo_det" href="#services" class="promo__item">
+                        Детейлинг автомобилей
+                    </a>
+                    <a id="promo__gallery" href="#" class="promo__item">
+                        Галерея работ
+                    </a>
+                </nav>
+            </header>
+            <h1 class="promo__title">
+                CAR MUSC
+            </h1>
+            <div class="promo__rhombuses rhombuses">
+                <div class="rhombus">
+                </div>
+                <div class="rhombus">
+                </div>
+                <div class="rhombus">
+                </div>
+                <div class="rhombus">
+                </div>
+            </div>
+            <h2 class="promo__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae orci urna amet penatibus.
+            </h2>
+            <a href="#services" class="promo__href">
+                Наши услуги
+            </a>
+        </div>
+        <adress>
+            <div class="promo__card">
+                <div class="promo__name">
+                    адрес:
+                </div>
+                <div class="promo__contacts">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+                </div>
+            </div>
+            <div class="promo__card">
+                <div class="promo__name">
+                    телефон:
+                </div>
+                <div class="promo__contacts">8 (812) 123-45-67<br>
+                    8-911-123-45-67
+                </div>
+            </div>
+            <div class="promo__card">
+                <div class="promo__name">
+                    Режим работы:
+                </div>
+                <div class="promo__contacts">
+                    пн-пт : 10:00 - 20:00<br>
+                    сб-вск : 12:00 - 20:00
+                </div>
+            </div>
+        </adress>
+    </section>
+    <section class="championship">
+        <div class="container">
+            <div class="championship__wrapper">
+                <div class="championship__left">
+                    <h2 class="championship__title title">
+                        наши достижения от кубка россии до чемпионатов мира
+                    </h2>
+                    <div class="championship__rhombuses rhombuses">
+                        <div class="rhombus">
+                        </div>
+                        <div class="rhombus">
+                        </div>
+                        <div class="rhombus">
+                        </div>
+                        <div class="rhombus">
+                        </div>
+                    </div>
+                    <div class="championship__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant tincidunt aliquam tincidunt pretium sodales. Tristique odio pellentesque et tincidunt posuere arcu purus lobortis risus. Urna, ut amet odio orci magnis praesent ultrices. Praesent malesuada lacus tellus tristique sit at. Sed viverra nulla nam arcu, non iaculis pretium, volutpat. 
+                    </div>
+                </div>
+                <div class="championship__content">
+                    <div class="championship__first">
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>1
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>6
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>2
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>1
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                    </div>
+                    <div class="championship__second">
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>4
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>3
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                <span>#</span>1
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                        <div class="championship__item">
+                            <div class="championship__num">
+                                    <img src="icons/cub.png" alt="trophy">
+                            </div>
+                            <div class="championship__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="img/car.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_second.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_third.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/1686900951_bogatyr-club-p-krutie-tachki-oboi-instagram-3.jpg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_fourth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_sixth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_fiveth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_xeventh.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_ninth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__for_pl">
+                <div class="slider__item">
+                    <img src="img/car.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_second.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_third.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/1686900951_bogatyr-club-p-krutie-tachki-oboi-instagram-3.jpg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_fourth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_sixth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_fiveth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_xeventh.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_ninth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__for_mb">
+                <div class="slider__item">
+                    <img src="img/car.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_second.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_third.png" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/1686900951_bogatyr-club-p-krutie-tachki-oboi-instagram-3.jpg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_fourth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_sixth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_fiveth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_xeventh.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img src="img/car_ninth.jpeg" alt="car">
+                    <div class="slider__red">
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="main__wrapper">
+                    <div class="main__left">
+                        <div class="main__details">
+                            <div class="main__icon">
+                                <img src="icons/materials.png" alt="icon">
+                            </div>
+                            <h2 class="main__name">
+                                материалы от лучших компаний
+                            </h2>
+                        </div>
+                        <div class="main__descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium, rutrum est, molestie proin tristique duis sed. Morbi suspendisse amet nisl vestibulum risus. Quis pretium
+                        </div>
+                        <div class="main__rhombuses rhombuses">
+                            <div class="rhombus">
+                            </div>
+                            <div class="rhombus">
+                            </div>
+                            <div class="rhombus">
+                            </div>
+                            <div class="rhombus">
+                            </div>
+                        </div>
+                        <div class="main__details">
+                            <div class="main__icon">
+                                <img src="icons/wash.png" alt="wash">
+                            </div>
+                            <h2 class="main__name">
+                                Опытные мастера
+                            </h2>
+                        </div>
+                        <div class="main__descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies. Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                        </div>
+                        <div class="main__rhombuses rhombuses">
+                            <div class="rhombus">
+                            </div>
+                            <div class="rhombus">
+                            </div>
+                            <div class="rhombus">
+                            </div>
+                            <div class="rhombus">
+                            </div>
+                        </div>
+                        <div class="main__details">
+                            <div class="main__icon">
+                                <img src="icons/washing.png" alt="washing">
+                            </div>
+                            <h2 class="main__name">
+                                Гарантия на все виды работы
+                            </h2>
+                        </div>
+                        <div class="main__descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat.
+                        </div>
+                    </div>
+                    <div class="main__right">
+                        <div class="main__slider">
+                            <div class="main__item">
+                                <img src="img/slider_item.png" alt="car">
+                            </div>
+                            <div class="main__item">
+                                <img src="img/slider_item_two.jpeg" alt="car">
+                            </div>
+                            <div class="main__item">
+                                <img src="img/sider_item_three.jpeg" alt="car">
+                            </div>
+                        </div>
+                        <div class="main__feature">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est. Consectetur lectus.
+                        </div>
+                        <div class="main__test">
+
+                        </div>
+                        <div class="main__test_right">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="services__title title">
+                    Наши услуги
+                </h2>
+                <div class="services__rhombuses rhombuses">
+                    <div class="rhombus">
+                    </div>
+                    <div class="rhombus">
+                    </div>
+                    <div class="rhombus">
+                    </div>
+                    <div class="rhombus">
+                    </div>
+                </div>
+                <div class="services__services">
+                    <a class="services__item" href="#">ОКЛЕЙКА</a>
+                    <a class="services__item" href="#">ДЕТЕЙЛИНГ</a>
+                </div>
+                <div class="services__contant"> 
+                    <div id="firstCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            Защитные пленки
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="films" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                    <div id="secondCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon_two.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            Цветные пленки
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="colorFilms" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                    <div id="thirdCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon_three.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            ДИЗАЙН
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="design" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                    <div id="fourthCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_item_four.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            Оклейка салона
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="secondPastic" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                </div>
+                <div class="services__contant">
+                    <div id="fifthCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            Комплексная мойка
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="compWashing" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                    <div id="sixthCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon_three.png " alt="icon">
+                        </div>
+                        <div class="services__name">
+                            чистка и полировка
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="polishing" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                    <div id="seventhCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon_two.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            обезжиривание кузова
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="degreasing" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                    <div id="lastCard" class="services__card">
+                        <div class="services__icon">
+                            <img src="icons/card_icon.png" alt="icon">
+                        </div>
+                        <div class="services__name">
+                            Универсальная мойка
+                        </div>
+                        <div class="services__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                        </div>
+                        <a id="universal" href="#dot" class="services__more">
+                            ПОДРОБНЕЕ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="masters" class="masters">
+            <div class="container">
+                <div class="masters__wrapper">
+                    <div class="masters__left">
+                        <div class="masters__slider">
+                            <div class="masters__item">
+                                <img src="img/car_slider.png" alt="car">
+                            </div>
+                            <div class="masters__item">
+                                <img src="img/super_car.jpeg" alt="car">
+                            </div>
+                            <div class="masters__item">
+                                <img src="img/cuper_car.jpeg" alt="car">
+                            </div>
+                        </div>
+                        <div class="masters__feature">
+                            Neque metus vitae urna purus aliquam. Felis nullam pellentesque ac mi commodo, amet, porta in. Dui.
+                        </div>
+                        <div class="main__test">
+    
+                        </div>
+                        <div class="main__test_right">
+    
+                        </div>
+                    </div>
+                            <div class="masters__right">
+                                <div class="masters__details">
+                                    <div class="masters__icon">
+                                        <img src="icons/materials.png" alt="car">
+                                    </div>
+                                    <h2 class="masters__name">
+                                        100% полироль axem
+                                    </h2>
+                                </div>
+                                <div class="masters__descr">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium, rutrum est, molestie proin tristique duis sed. Morbi suspendisse amet nisl vestibulum risus. Quis pretium
+                                </div>
+                                <div class="main__rhombuses rhombuses">
+                                    <div class="rhombus">
+                                    </div>
+                                    <div class="rhombus">
+                                    </div>
+                                    <div class="rhombus">
+                                    </div>
+                                    <div class="rhombus">
+                                    </div>
+                                </div>
+                                <div class="masters__details">
+                                    <div class="masters__icon">
+                                        <img src="icons/wash.png" alt="car">
+                                    </div>
+                                    <h2 class="masters__name">
+                                        выполняем работу четко по тз
+                                    </h2>
+                                </div>
+                                <div class="masters__descr">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies. Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                                </div>
+                                <div class="main__rhombuses rhombuses">
+                                    <div class="rhombus">
+                                    </div>
+                                    <div class="rhombus">
+                                    </div>
+                                    <div class="rhombus">
+                                    </div>
+                                    <div class="rhombus">
+                                    </div>
+                                </div>
+                                <div class="masters__details">
+                                    <div class="masters__icon">
+                                        <img src="icons/washing.png" alt="car">
+                                    </div>
+                                    <h2 class="masters__name">
+                                        у нас лучшие мастера
+                                    </h2>
+                                </div>
+                                <div class="masters__descr">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat.
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="title footer__title">
+                    ответим на любой вопрос
+                </div>
+                <div class="footer__rhombuses rhombuses">
+                    <div class="rhombus">
+                    </div>
+                    <div class="rhombus">
+                    </div>
+                    <div class="rhombus">
+                    </div>
+                    <div class="rhombus">
+                    </div>
+                </div>
+                <div class="footer__wrapper">
+                    <form action="../server.php" method="POST">
+                        <div class="footer__inputs">
+                            <input data-inputs id="input__test" placeholder="ИМЯ" name="name" type="text" class="footer__input" required>
+                            <input data-inputs placeholder="ТЕЛЕФОН" name="tel" type="tel" class="footer__input" required>
+                        </div>
+                        <div class="footer__content">
+                            <textarea placeholder="Вопрос по дизайну, тюнингу и др." name="text" class="footer__textarea"></textarea>
+                            <div class="footer__socials">
+                                <a href="https://t.me/golova_lepeha" class="footer__social">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M17.2208 3.09759L2.44583 8.79509C1.4375 9.2001 1.44333 9.76259 2.26083 10.0134L6.05416 11.1968L14.8308 5.65926C15.2458 5.40676 15.625 5.54259 15.3133 5.81926L8.2025 12.2368H8.20083L8.2025 12.2376L7.94083 16.1476C8.32416 16.1476 8.49333 15.9718 8.70833 15.7643L10.5508 13.9726L14.3833 16.8034C15.09 17.1926 15.5975 16.9926 15.7733 16.1493L18.2892 4.29259C18.5467 3.26009 17.895 2.79259 17.2208 3.09759Z" fill="white"/>
+                                    </svg>
+                                </a>
+                                <a href="https://t.me/golova_lepeha" class="footer__social">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <g clip-path="url(#clip0_45529_31)">
+                                        <path d="M19.5834 5.4224C19.4701 5.01843 19.2495 4.65269 18.945 4.36407C18.6319 4.06657 18.2482 3.85376 17.83 3.74573C16.265 3.33323 9.99503 3.33323 9.99503 3.33323C7.38113 3.30349 4.76788 3.4343 2.17003 3.7249C1.75185 3.84091 1.36883 4.05847 1.05503 4.35823C0.746693 4.6549 0.523359 5.02073 0.406693 5.42157C0.126437 6.93135 -0.00973061 8.46435 2.60381e-05 9.9999C-0.00997396 11.5341 0.125859 13.0666 0.406693 14.5782C0.520859 14.9774 0.743359 15.3416 1.05253 15.6357C1.36169 15.9299 1.74669 16.1424 2.17003 16.2549C3.75586 16.6666 9.99503 16.6666 9.99503 16.6666C12.6122 16.6963 15.2288 16.5655 17.83 16.2749C18.2482 16.1669 18.6319 15.9541 18.945 15.6566C19.2534 15.3624 19.4725 14.9966 19.5825 14.5982C19.8701 13.089 20.0099 11.5554 20 10.0191C20.0217 8.47624 19.882 6.93537 19.5834 5.42157V5.4224ZM8.00169 12.8532V7.1474L13.2184 10.0007L8.00169 12.8532Z" fill="white"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_45529_31">
+                                        <rect width="20" height="20" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                                <a href="https://vk.com/alexey_golovach" class="footer__social">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M19.9687 4.88503C20.1387 5.34456 19.6164 6.41681 18.4018 8.10176C18.2317 8.33153 18.0131 8.63789 17.7459 9.02083C17.1872 9.73566 16.8713 10.208 16.7985 10.4377C16.677 10.7441 16.7256 11.0377 16.9442 11.3185C17.0657 11.4717 17.3451 11.778 17.7823 12.2376H17.8188V12.2759C18.8148 13.2205 19.4828 14.0246 19.8229 14.6884L19.8958 14.8416L19.9687 15.1288V15.4926L19.7136 15.7798L19.0941 15.9138L16.4341 15.9904C16.264 16.016 16.0636 15.9904 15.8328 15.9138C15.602 15.8372 15.4259 15.7607 15.3045 15.6841L15.0858 15.5309C14.8672 15.3777 14.6243 15.1479 14.357 14.8416C14.0898 14.5352 13.853 14.2544 13.6465 13.9991C13.44 13.7438 13.2274 13.5332 13.0088 13.3673C12.7902 13.2013 12.5958 13.1439 12.4258 13.1949C12.4015 13.1949 12.3711 13.2077 12.3347 13.2332C12.2982 13.2588 12.2375 13.3162 12.1525 13.4055C12.0674 13.4949 11.9946 13.6034 11.9338 13.7311C11.8731 13.8587 11.8184 14.0438 11.7699 14.2863C11.7213 14.5289 11.697 14.8161 11.697 15.1479C11.697 15.2501 11.6848 15.3458 11.6605 15.4352C11.6362 15.5245 11.612 15.5947 11.5877 15.6458L11.5512 15.6841C11.4055 15.8372 11.2111 15.9138 10.9682 15.9138H9.80214C9.29199 15.9649 8.77577 15.9138 8.25348 15.7607C7.73118 15.6075 7.27569 15.4096 6.88701 15.1671C6.49832 14.9246 6.14608 14.682 5.83027 14.4395C5.51446 14.197 5.27154 13.9863 5.10149 13.8076L4.84641 13.5396C4.77353 13.4885 4.67636 13.3864 4.5549 13.2332C4.43343 13.08 4.18443 12.7482 3.8079 12.2376C3.43136 11.727 3.06089 11.1781 2.6965 10.5909C2.33211 10.0037 1.90698 9.23145 1.42113 8.27409C0.935273 7.31673 0.485856 6.32745 0.0728784 5.30627C0.0242928 5.17862 0 5.0765 0 4.99991C0 4.92332 0.0121464 4.8595 0.0364392 4.80844L0.0728784 4.77014C0.17005 4.61697 0.364392 4.54038 0.655905 4.54038H3.5346C3.60748 4.54038 3.68036 4.55952 3.75324 4.59782L3.93543 4.69356L3.97187 4.73185C4.09334 4.80844 4.17836 4.92332 4.22695 5.0765C4.3727 5.43392 4.53668 5.81048 4.71888 6.20619C4.90107 6.6019 5.04075 6.90187 5.13793 7.10611L5.28368 7.41246C5.50232 7.84647 5.70273 8.22303 5.88493 8.54215C6.06713 8.86127 6.2311 9.11019 6.37686 9.28889C6.52262 9.4676 6.66837 9.60801 6.81413 9.71013C6.95989 9.81225 7.08135 9.86331 7.17852 9.86331C7.27569 9.86331 7.37286 9.85054 7.47003 9.82502L7.50647 9.76757L7.63401 9.51866L7.77977 9.02083L7.87087 8.14006V6.76146C7.84657 6.48063 7.81013 6.21895 7.76155 5.97642C7.71296 5.73389 7.66438 5.56156 7.61579 5.45944L7.57935 5.34456C7.4093 5.08927 7.10564 4.92332 6.66837 4.84673C6.59549 4.84673 6.61979 4.75738 6.74125 4.57867C6.86271 4.45102 6.99632 4.34891 7.14208 4.27232C7.50647 4.06808 8.33243 3.97873 9.61995 4.00425C10.1787 4.00425 10.6524 4.05531 11.0411 4.15743C11.1625 4.18296 11.2719 4.22764 11.369 4.29146C11.4662 4.35529 11.5391 4.44464 11.5877 4.55952C11.6362 4.67441 11.6727 4.78929 11.697 4.90418C11.7213 5.01906 11.7334 5.185 11.7334 5.402V5.99557C11.7091 6.1998 11.697 6.4551 11.697 6.76146V7.68052C11.697 7.75711 11.6909 7.91029 11.6788 8.14006C11.6666 8.36983 11.6605 8.54853 11.6605 8.67618C11.6605 8.80383 11.6727 8.95062 11.697 9.11657C11.7213 9.28251 11.7638 9.42292 11.8245 9.53781C11.8853 9.65269 11.9642 9.73566 12.0614 9.78672C12.11 9.81225 12.1646 9.8314 12.2253 9.84416C12.2861 9.85693 12.3772 9.81863 12.4986 9.72928C12.6201 9.63993 12.7537 9.51228 12.8995 9.34633C13.0452 9.18039 13.2274 8.93148 13.4461 8.59959C13.6647 8.26771 13.8955 7.88476 14.1384 7.45076C14.5514 6.68487 14.9279 5.85515 15.268 4.96162C15.2923 4.91056 15.3227 4.85312 15.3591 4.78929C15.3956 4.72547 15.4381 4.68079 15.4867 4.65526H15.5231L15.5595 4.61697L15.7053 4.57867H15.9239L18.9119 4.54038C19.1792 4.51485 19.4039 4.52761 19.5861 4.57867C19.7683 4.62973 19.8715 4.69356 19.8958 4.77014L19.9687 4.88503Z" fill="white"/>
+                                        </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <input class="footer__btn" type="submit" value="отправить">
+                    </form>
+                </div>
+            </div>
+            <div class="footer__boad">
+            </div>
+            <div class="container">
+                <div class="footer__description">
+                    <div class="footer__production">
+                        2022 © Est et viverra pellentesque pharetra lorem proin in. Vitae magna at tempus commodo.
+                    </div>
+                    <nav>
+                        <a href="#main" class="promo__item">
+                            Главная
+                        </a>
+                        <a href="#services" class="promo__item">
+                            Оклейка автомобилей
+                        </a>
+                        <a href="#services" class="promo__item">
+                            Детейлинг автомобилей
+                        </a>
+                        <a id="footer__gallery" href="#galery" class="promo__item">
+                            Галерея работ
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            
+        </footer> 
+
+
+    <div data-modal id="popup__gallery" class="popup">
+        <a href="#dot" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <div class="popup__title">Наша галерея </div>
+                <div class="popup__wrapper">
+                    <div class="popup__photo">
+                        <img src="https://www.iguides.ru/upload/iblock/bfc/saaj70a20ym53mcmb6mgwq5eiqme71q6.jpg" alt="car gelee">
+                    </div>
+                    <div class="popup__photo">
+                        <img src="https://avcdn.av.by/wisiwigimage/0001/8199/9305.jpeg" alt="car benz track">
+                    </div>
+                    <div class="popup__photo">
+                        <img src="https://motor.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2022/01/27/11/5197968/f7aba1d92862152a77a6fcf637d2ea171e1defe8.jpg" alt="mercedec">
+                    </div>
+                    <div class="popup__photo">
+                        <img src="https://avatars.mds.yandex.net/get-vertis-journal/4466156/200.jpg_1633347258286/orig" alt="pink benz truck">
+                    </div>
+                    <div class="popup__photo">
+                        <img src="https://www.avtovzglyad.ru/media/article/DFDFDF.jpg.740x555_q85_box-0%2C0%2C740%2C555_crop_detail_upscale.jpg" alt="sport car">
+                    </div>
+                    <div class="popup__photo">
+                        <img src="https://oir.mobi/uploads/posts/2021-03/1616775091_1-p-krutie-mashini-krasivo-1.jpg" alt="sport car">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="input__form">
+        <form  id="form" action="/login" method="POST">
+            <div class="input__content">
+                    <div class="input__in">
+                        <input id="input__name" class="input__input" placeholder="Your Email ID..." type="text">
+                    </div>
+                <button href="#" class="input__href" name="submit" type="submit">
+                    Subscribe
+                </button>
+            </div>
+        </form>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
